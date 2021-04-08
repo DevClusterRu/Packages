@@ -44,4 +44,5 @@ func ConfigInit() map[string]string {
 			Env[pair[0]] = pair[1]
 		}
 	}
+	return Env
 }
