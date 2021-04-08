@@ -12,8 +12,6 @@ var Env map[string]string
 
 func ConfigInit() map[string]string {
 
-	Device = make(map[int]DeviceMap)
-
 	Env = make(map[string]string)
 	folderPath, err := osext.ExecutableFolder()
 
